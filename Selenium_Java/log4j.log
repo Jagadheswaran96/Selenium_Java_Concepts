@@ -1,0 +1,4 @@
+09/30 20:49:58 INFO  practice.Log4jUsingXMLAppender  - this is info
+09/30 20:49:58 WARN  practice.Log4jUsingXMLAppender  - this is warn
+09/30 20:49:58 ERROR practice.Log4jUsingXMLAppender  - this is an error
+09/30 20:49:58 FATAL practice.Log4jUsingXMLAppender  - this is fatal
