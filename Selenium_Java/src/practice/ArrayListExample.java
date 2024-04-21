@@ -24,7 +24,7 @@ public class ArrayListExample {
 		arrayList.add(2, null);
 		System.out.println(arrayList.contains("string 2"));
 		System.out.println(arrayList);
-		System.out.println("jenkins");
+		System.out.println("jenkins hook");
 		
 	}
 }
