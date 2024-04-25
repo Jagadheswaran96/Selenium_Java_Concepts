@@ -1,6 +1,4 @@
-/DefaultMethods/
-/DefaultMethodsWithMultipleInheritance/
-/FunctionalInterface/
-/Interface/
-/practice/
-/testNG/
+/Drivers/
+/src/
+/test-output/
+/.project
