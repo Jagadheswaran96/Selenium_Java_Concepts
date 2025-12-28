@@ -1,0 +1,23 @@
+what is Collison in java?
+ChatGPT
+In Java, a "collision" typically refers to a situation that can occur in hash-based data structures like HashMap or 
+HashSet when two or more distinct keys produce the same hash code.
+
+Here's a brief explanation:
+
+Hashing: In hash-based data structures, each key is mapped to an index in an array using a hash function. 
+This hash function computes a hash code for each key, which determines the index where the key-value pair will be stored.
+Collision: A collision occurs when two or more keys produce the same hash code. 
+This can happen due to the finite range of hash codes (32-bit integer) and the potentially infinite number of keys.
+
+Handling Collisions: There are several strategies to handle collisions in Java:
+Separate Chaining: In this approach, each bucket in the hash table contains a linked list 
+(or other data structure) of key-value pairs that hash to the same index. 
+When a collision occurs, the new key-value pair is added to the linked list associated with that index.
+Open Addressing: In open addressing, when a collision occurs, the algorithm probes for an alternative 
+location in the hash table. This may involve examining nearby locations until an empty slot is found.
+Rehashing: If the load factor (ratio of elements to buckets) exceeds a certain threshold, 
+the hash table is resized and rehashed to reduce collisions and maintain performance.
+Collisions are an important consideration in designing and using hash-based data structures, as they can affect 
+performance and correctness if not handled properly. Ensuring a good quality hash function and choosing an appropriate 
+collision resolution strategy are crucial for efficient usage of hash-based collections in Java.

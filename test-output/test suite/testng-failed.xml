@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="10" parallel="classes" name="Failed suite [test suite]" guice-stage="DEVELOPMENT" verbose="5">
+  <listeners>
+    <listener class-name="testNG.TestListeners"/>
+  </listeners>
+  <test thread-count="10" parallel="classes" name="test cases(failed)" verbose="5">
+    <parameter name="a" value="5"/>
+    <parameter name="b" value="5"/>
+    <classes>
+      <class name="testNG.TestAnnotation">
+        <methods>
+          <include name="powerOnLaptop"/>
+        </methods>
+      </class> <!-- testNG.TestAnnotation -->
+      <class name="testNG.ParallelAttribute">
+        <methods>
+          <include name="openChrome"/>
+          <include name="openBing"/>
+        </methods>
+      </class> <!-- testNG.ParallelAttribute -->
+    </classes>
+  </test> <!-- test cases(failed) -->
+</suite> <!-- Failed suite [test suite] -->

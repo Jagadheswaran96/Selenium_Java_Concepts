@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" verbose="5" name="test suite" parallel="methods">
+  <listeners>
+    <listener class-name="testNG.Listeners"/>
+  </listeners>
+  <test name="test cases">
+  <parameter name="a" value="5"></parameter>
+  <parameter name="b" value="5"></parameter>
+    <classes>
+      <class name="testNG.TestAnnotation"/>
+      <class name="testNG.SkiptestCase"/>
+      <class name="testNG.Parameter"/>
+    </classes>
+  </test> <!-- test cases -->
+</suite> <!-- test suite -->

@@ -1,0 +1,15 @@
+Spliterator<E> spliterator() Creates a late-binding and fail-fast Spliterator over the elements in this set.
+a) Methods declared in class java.util.HashSet
+add, clear, clone, contains, isEmpty, iterator, remove, size, toArray, toArray
+b) Methods declared in class java.util.AbstractSet
+equals, hashCode, removeAll
+c) Methods declared in class java.util.AbstractCollection
+addAll, containsAll, retainAll, toArray, toArray, toString
+d) Methods declared in class java.lang.Object
+finalize, getClass, notify, notifyAll, wait, wait, wait
+e) Methods declared in interface java.util.Collection
+parallelStream, removeIf, stream, toArray
+f) Methods declared in interface java.lang.Iterable
+forEach
+g) Methods declared in interface java.util.Set
+add, addAll, clear, contains, containsAll, equals, hashCode, isEmpty, iterator, remove, removeAll, retainAll, size, toArray, toArray

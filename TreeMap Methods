@@ -1,0 +1,120 @@
+Map.Entry<K,V>
+ceilingEntry(K key)
+Returns a key-value mapping associated with the least key greater than or equal to the given key, or null if there is no such key.
+K
+ceilingKey(K key)
+Returns the least key greater than or equal to the given key, or null if there is no such key.
+void
+clear()
+Removes all of the mappings from this map.
+Object
+clone()
+Returns a shallow copy of this TreeMap instance.
+Comparator<? super K>
+comparator()
+Returns the comparator used to order the keys in this map, or null if this map uses the natural ordering of its keys.
+V
+compute(K key, BiFunction<? super K,? super V,? extends V> remappingFunction)
+Attempts to compute a mapping for the specified key and its current mapped value (or null if there is no current mapping).
+V
+computeIfAbsent(K key, Function<? super K,? extends V> mappingFunction)
+If the specified key is not already associated with a value (or is mapped to null), attempts to compute its value using the given mapping function and enters it into this map unless null.
+V
+computeIfPresent(K key, BiFunction<? super K,? super V,? extends V> remappingFunction)
+If the value for the specified key is present and non-null, attempts to compute a new mapping given the key and its current mapped value.
+boolean
+containsKey(Object key)
+Returns true if this map contains a mapping for the specified key.
+boolean
+containsValue(Object value)
+Returns true if this map maps one or more keys to the specified value.
+NavigableSet<K>
+descendingKeySet()
+Returns a reverse order NavigableSet view of the keys contained in this map.
+NavigableMap<K,V>
+descendingMap()
+Returns a reverse order view of the mappings contained in this map.
+Set<Map.Entry<K,V>>
+entrySet()
+Returns a Set view of the mappings contained in this map.
+Map.Entry<K,V>
+firstEntry()
+Returns a key-value mapping associated with the least key in this map, or null if the map is empty.
+K
+firstKey()
+Returns the first (lowest) key currently in this map.
+Map.Entry<K,V>
+floorEntry(K key)
+Returns a key-value mapping associated with the greatest key less than or equal to the given key, or null if there is no such key.
+K
+floorKey(K key)
+Returns the greatest key less than or equal to the given key, or null if there is no such key.
+V
+get(Object key)
+Returns the value to which the specified key is mapped, or null if this map contains no mapping for the key.
+SortedMap<K,V>
+headMap(K toKey)
+Returns a view of the portion of this map whose keys are strictly less than toKey.
+NavigableMap<K,V>
+headMap(K toKey, boolean inclusive)
+Returns a view of the portion of this map whose keys are less than (or equal to, if inclusive is true) toKey.
+Map.Entry<K,V>
+higherEntry(K key)
+Returns a key-value mapping associated with the least key strictly greater than the given key, or null if there is no such key.
+K
+higherKey(K key)
+Returns the least key strictly greater than the given key, or null if there is no such key.
+Set<K>
+keySet()
+Returns a Set view of the keys contained in this map.
+Map.Entry<K,V>
+lastEntry()
+Returns a key-value mapping associated with the greatest key in this map, or null if the map is empty.
+K
+lastKey()
+Returns the last (highest) key currently in this map.
+Map.Entry<K,V>
+lowerEntry(K key)
+Returns a key-value mapping associated with the greatest key strictly less than the given key, or null if there is no such key.
+K
+lowerKey(K key)
+Returns the greatest key strictly less than the given key, or null if there is no such key.
+V
+merge(K key, V value, BiFunction<? super V,? super V,? extends V> remappingFunction)
+If the specified key is not already associated with a value or is associated with null, associates it with the given non-null value.
+NavigableSet<K>
+navigableKeySet()
+Returns a NavigableSet view of the keys contained in this map.
+Map.Entry<K,V>
+pollFirstEntry()
+Removes and returns a key-value mapping associated with the least key in this map, or null if the map is empty.
+Map.Entry<K,V>
+pollLastEntry()
+Removes and returns a key-value mapping associated with the greatest key in this map, or null if the map is empty.
+V
+put(K key, V value)
+Associates the specified value with the specified key in this map.
+void
+putAll(Map<? extends K,? extends V> map)
+Copies all of the mappings from the specified map to this map.
+V
+remove(Object key)
+Removes the mapping for this key from this TreeMap if present.
+int
+size()
+Returns the number of key-value mappings in this map.
+NavigableMap<K,V>
+subMap(K fromKey, boolean fromInclusive, K toKey, boolean toInclusive)
+Returns a view of the portion of this map whose keys range from fromKey to toKey.
+SortedMap<K,V>
+subMap(K fromKey, K toKey)
+Returns a view of the portion of this map whose keys range from fromKey, inclusive, to toKey, exclusive.
+SortedMap<K,V>
+tailMap(K fromKey)
+Returns a view of the portion of this map whose keys are greater than or equal to fromKey.
+NavigableMap<K,V>
+tailMap(K fromKey, boolean inclusive)
+Returns a view of the portion of this map whose keys are greater than (or equal to, if inclusive is true) fromKey.
+Collection<V>
+values()
+Returns a Collection view of the values contained in this map.

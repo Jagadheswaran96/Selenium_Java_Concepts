@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" verbose="5" name="test suite" parallel="classes">
+  <listeners>
+    <listener class-name="testNG.TestListeners"/>
+  </listeners>
+  <test name="test cases">
+  <parameter name="a" value="5"></parameter>
+  <parameter name="b" value="5"></parameter>
+    <classes>
+      <class name="testNG.ParallelAttribute"/>
+      <class name="testNG.TestAnnotation"/>
+      
+    </classes>
+  </test> <!-- test cases -->
+</suite> <!-- test suite -->
