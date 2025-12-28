@@ -6,7 +6,6 @@ public class ReverseString {
 		String name = "12345";
 		char array[] = name.toCharArray();
 		int size = name.length();
-		System.out.println(size);
 		for(int i=size-1;i>=0;i--) {
 			System.out.print(array[i]);
 		}
@@ -26,7 +25,7 @@ public class ReverseString {
 		string.append(string);
 		System.out.println(string.reverse() + " - reversed using string builder");
 		
-		System.out.println("Reversed String: " + reverse("Hello, World!"));
+		System.out.println("Reversed String using recursion method: " + reverse("Hello World"));
 
 	}
 	//using a recursive method
